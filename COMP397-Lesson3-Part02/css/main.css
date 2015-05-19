@@ -10,7 +10,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 }
 
-.impress-enabled . step {
+.impress-enabled .step {
     margin:0;
     opacity: 0.0;
     -webkit-transition: opacity 1s;
@@ -38,6 +38,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     font-size: 30px;
 
 
+}
+
+/*Styling for sliding paragraphs*/
+.slide p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+/*Styling for slide links*/
+.slide a, .slide a:visited {
+    color: #071549;
+    text-decoration: none;
+    background-color: #abc;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cde;
+}
+
+.slide a:hover, .slide:active {
+    background-color:#cde;
+}
+
+/*styling for slide text area*/
+.slide .slide-text {
+    height: 450px;
+}
+/*styling for slide menu*/
+div.menu{
+    border-top: 2px solid black;
+    padding-top: 25px;
+    text-align: center;
 }
 
 
